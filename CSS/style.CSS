@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+.registration {
+    background: url(../img/bg/black_brick.jpg) no-repeat center/cover;
+    height: 100%;
+}
+.container {
+    margin: 0 auto;
+    width: 1141px;
+}
+.yourself{
+    display: block;
+    width: 367px;
+    height: 463px;
+    border-radius: 5px;
+    object-position: center;
+}
+.header {
+    text-align: center;
+    color: #f7fbfe;
+    padding: 33px; 
+    background-color: #1e92e7;
+    text-transform: uppercase;
+    border-radius: 5px 5px 0px 0px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 39px;
+    background-color: #fff;
+    border-radius: 0px 0px 5px 5px;
+}
+.text {
+    display: grid;
+    font-size: 11px;
+}
+.form__row {
+    border-radius: 5px;
+    padding: 12px 63px;
+    text-align: center;
+    border: 1px solid#e4e4e4;
+}
+#form__row {
+    text-transform: uppercase;
+    background-color: #1e92e7;
+    padding: 12px 63px;
+    color: #f7fbfe;
+    border: none;
+}
